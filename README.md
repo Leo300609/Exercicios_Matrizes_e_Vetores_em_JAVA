@@ -34,4 +34,4 @@ Repositório destinado à resolução de exercícios práticos focados na manipu
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/Leo300609/Exercicios_Matrizes_e_Vetores_em_JAVA.git](https://github.com/Leo300609/Exercicios_Matrizes_e_Vetores_em_JAVA.git)
+   git clone https://github.com/Leo300609/Exercicios_Matrizes_e_Vetores_em_JAVA.git
