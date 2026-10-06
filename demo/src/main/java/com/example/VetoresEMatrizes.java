@@ -25,7 +25,6 @@ public class VetoresEMatrizes {
         System.out.println("Produção Total: " + totalMilho + " toneladas");
         System.out.println("Média Semanal: " + mediaMilho + " toneladas");
         System.out.println("Maior Produção Registrada: " + maiorMilho + " toneladas");
-        System.out.println("----------------------------------------\n");
 
 
         // Exercício 2 - Temperatura em Estufa
@@ -42,7 +41,6 @@ public class VetoresEMatrizes {
         }
 
         System.out.println("Quantidade de dias com temperatura acima de 30°C: " + diasAcima30);
-        System.out.println("----------------------------------------\n");
 
 
         // Exercício 3 - Consumo de Água na Irrigação
@@ -62,7 +60,6 @@ public class VetoresEMatrizes {
         }
 
         System.out.println("O setor que mais consumiu água foi o Setor " + setorMaiorConsumo + " (" + maiorConsumo + " litros)");
-        System.out.println("----------------------------------------\n");
 
 
         // Exercício 4 - Produção de Hortaliças por Talhão
@@ -80,7 +77,6 @@ public class VetoresEMatrizes {
             System.out.println("Talhão " + (i + 1) + ": " + hortalicas[i] + " kg");
         }
         System.out.println("Total Geral Produzido: " + totalHortalicas + " kg");
-        System.out.println("----------------------------------------\n");
 
 
         // Exercício 5 - Umidade do Solo
@@ -97,7 +93,6 @@ public class VetoresEMatrizes {
         }
 
         System.out.println("Quantidade de áreas com umidade inferior a 40%: " + umidadeBaixa);
-        System.out.println("----------------------------------------\n");
 
 
         // Exercício 6 - Produção Agrícola por Mês e Cultura
@@ -117,7 +112,6 @@ public class VetoresEMatrizes {
         for (int cultura = 0; cultura < 3; cultura++) {
             System.out.println("Cultura " + (cultura + 1) + ": " + totalPorCultura[cultura]);
         }
-        System.out.println("----------------------------------------\n");
 
 
         // Exercício 7 - Monitoramento de Chuvas
@@ -137,7 +131,6 @@ public class VetoresEMatrizes {
         for (int area = 0; area < 4; area++) {
             System.out.println("Área " + (area + 1) + ": " + totalChuvaArea[area] + " mm");
         }
-        System.out.println("----------------------------------------\n");
 
 
         // Exercício 8 - Controle de Pragas
@@ -160,7 +153,6 @@ public class VetoresEMatrizes {
         }
 
         System.out.println("Região com maior quantidade de focos: Linha " + linhaMaior + ", Coluna " + colunaMaior + " (Total: " + maiorFocos + " focos)");
-        System.out.println("----------------------------------------\n");
 
 
         // Exercício 9 - Mapa de Fertilidade do Solo
@@ -183,11 +175,10 @@ public class VetoresEMatrizes {
             double mediaLinha = somaLinha / 6;
             System.out.println("Média da Linha " + i + ": " + mediaLinha);
         }
-        System.out.println("----------------------------------------\n");
 
         
         // Exercício 10 - Produção de Frutas por Pomar
-        double[][] pomares = new double[4][12]; // 4 pomares x 12 meses
+        double[][] pomares = new double[4][12];
         double maiorProducaoAnual = -1;
         int pomarCampeao = 0;
 
